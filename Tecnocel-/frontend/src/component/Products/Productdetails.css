@@ -1,0 +1,39 @@
+.details{
+  padding: 5rem;
+}
+.carrito{
+  padding: 1rem !important;
+}
+.stackDetail{
+ padding: 1rem !important;
+}
+.MuiCardActions-root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infodetalles{
+  height: auto !important;
+}
+.cardDetails{
+  height: auto !important;
+  min-height: 65rem !important;
+}
+
+@media screen and (max-width:750px) {
+  .cardDetails{
+    min-height: 80rem !important;
+  }
+
+  }
+  @media screen and (max-width:475px) {
+    .cardDetails{
+      min-height: 85rem !important;
+    }
+  }
+    @media screen and (max-width:450px) {
+      .cardDetails{
+        min-height: 100rem !important;
+      }
+  
+    }

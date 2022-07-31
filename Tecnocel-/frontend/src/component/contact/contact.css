@@ -1,0 +1,75 @@
+.content{
+    font-size: 1.5rem;
+    color: #ffffff ;
+}
+.align__items__center{
+    justify-content: center;
+    align-items: center;
+}
+.contact__main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-size: 1.6rem !important;
+    color: #ffffff;
+}
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color:#26dd20;
+    color: #ffffff;
+}
+h4{
+    font-size: 1.5rem !important;
+    color: #ffffff;
+}
+.a{
+color: #ffffff !important;
+}
+.back-contact{
+    background-image: url("https://besthqwallpapers.com/Uploads/20-8-2019/102143/thumb2-black-stylish-background-green-neon-lines-green-light-effects-abstract-black-background.jpg");
+    background-size: cover;
+    object-fit: cover;
+    min-height: 48rem !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center;
+    
+}
+a{
+    text-decoration: none !important;
+}
+.sad{
+    background-color: rgba(0, 0, 0, 0.514);
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.boton3{
+    text-align: center;
+    color: #ffffff !important;
+    height: 10rem !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    padding: 0.5em 1.2em !important;
+    background: rgba(0,0,0,0);
+    border: 2px solid !important;
+    border-color: transparent !important;
+    transition: all 2s ease !important;
+    position: relative !important;
+  }
+  .boton3:hover{
+    background: #26dd20;
+    color: rgb(255, 255, 255) !important;
+    border-color: #000000;
+  }
+  .slogan{
+      color: #26dd20;
+      padding: 1rem;
+      font-size: 1.7rem;
+      font-style: oblique;
+  }

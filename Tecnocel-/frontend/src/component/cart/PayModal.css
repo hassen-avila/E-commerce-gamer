@@ -1,0 +1,22 @@
+.form-modal input{
+    color: black;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+.form-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100% !important;
+}
+
+@media (max-width: 400px) {
+    .css-1wnsr1i {
+        width: 350px !important;
+    }
+}

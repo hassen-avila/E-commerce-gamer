@@ -1,0 +1,82 @@
+.Header{
+  border-bottom:solid 0.1rem #88D317 !important;
+}
+.Linkrouter{
+  color:white;
+  font-size: 1.8rem;
+}
+.Header{
+  border-bottom:solid 0.1rem #88D317 !important;
+}
+.css-6hp17o-MuiList-root-MuiMenu-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13rem;
+    background-color: rgb(18, 18, 18);
+}
+.css-1poimk-MuiPaper-root-MuiMenu-paper-MuiPaper-root-MuiPopover-paper {
+  background-color: transparent !important;
+}
+.menu-despleg{
+  background-color: rgba(255, 255, 255, 0.253);
+  height: 3rem !important;
+  width: 3rem !important;
+}
+.Linkrouter-short{
+  color: #88D317;
+  font-size: 1.8rem
+}
+  .inputBox > span{
+      font-family: "Roboto";
+      animation: sliding 12s linear infinite;
+      display: block;
+  }
+  .panel{
+    font-size:35px!important;
+    color:#88D317;
+    transform: translateX(-145px);
+  }
+  .inputBox {
+    overflow: hidden !important;
+  }
+  .Header__topbar{
+    background-color:rgb(18, 18, 18);
+    padding: 2rem
+  }
+  .navbar{
+    background-color:rgb(18, 18, 18);
+    padding: 2rem!important;
+    
+  }
+  .buttonnav{
+  -moz-box-shadow: 0 0 6px   #88D317;
+  -webkit-box-shadow: 0 0 6px   #88D317;
+  box-shadow: 0 0 30px #88D317;
+  margin-left:1rem;
+  color: #88D317;
+  border-radius: 2rem;
+  font-size:2rem;
+  }
+  @keyframes sliding{
+      0%{
+        transform: translateX(-70%);
+      }
+      100%{
+        transform: translateX(130%);
+      }
+    }
+
+@media (max-width: 1000px) {
+  .inputBox {
+    display: none !important;
+  }
+  .searchBoxHome {
+    display: none;
+  }
+}
+@media(max-width:550px){
+  .email-header{
+    display: none !important;
+  }
+}

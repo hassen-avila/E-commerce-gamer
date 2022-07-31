@@ -1,0 +1,103 @@
+
+  .contenedor-productos{
+      margin-bottom: 0;
+      margin-top: 0;
+      width: 100% !important;
+      height: 100% !important;
+      min-height: 85vh !important;
+      background-color: #0d0d0d !important;
+     background-image: url(https://wallpapercave.com/wp/wp4568512.jpg);
+      background-size:contain;
+      padding: 2rem;
+    }
+    .searchConteiner{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 4rem;
+      background-color: #525252ad;
+    }
+    .search{
+      margin: 0.5rem;
+      border-radius: 0.1rem;
+      border-top-color: #272727;
+      color: white !important;
+      font-size: 18px;
+    }
+    
+    .search::placeholder {
+      color: white;
+      font-size: 18px;
+    }
+
+    .notNesultsContenedor{
+      color: whitesmoke;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  .img-products{
+      height: 20vh !important;
+      width: 100% !important;
+  }
+  .imagenlist{
+    display: flex !important;
+    justify-content: space-around !important;
+    flex-wrap: wrap !important;
+  
+  }
+  .contenedor-tarjetas{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4rem;
+  }
+  .MuiCard-root{
+    background-color: #1A0315 !important;
+    height: 70vh !important;
+    min-height: 65vh !important;
+    width: 100% !important;
+    padding: 1rem !important;
+  -moz-box-shadow: 0 0 6px   #88D317 !important;
+  -webkit-box-shadow: 0 0 6px   #88D317 !important;
+  box-shadow: 0 0 30px #88D317 !important;
+  margin-left:1rem;
+  margin-right:1rem;
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  color: #88D317 !important;
+  border-radius: 0.5rem !important;
+  }
+  .MuiCardMedia-root{
+    height: 30vh !important;
+    width: 100% !important;
+    object-fit:contain !important;
+    background-color: white;
+  }
+  .vermas:hover{
+    background-color: #272727 !important;
+  }
+  .vermas{
+    min-width: 10rem !important;
+  }
+.MuiCardContent-root{
+  height: 13rem !important;
+}
+.carrito{
+  min-height: 4rem !important;
+}
+
+@media screen and (max-width:455px) {
+  .vermas{
+    font-size:xx-small !important;
+  }
+  }
+  @media screen and (max-width:280px) {
+    .vermas{
+      font-size:xx-small !important;
+      display: flex !important;
+      flex-direction: row !important;
+    }
+    }
